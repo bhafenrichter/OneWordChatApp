@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D2BABD01AA3A9B300C359DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2BABCF1AA3A9B300C359DD /* main.m */; };
+		3D2BABD31AA3A9B300C359DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2BABD21AA3A9B300C359DD /* AppDelegate.m */; };
+		3D2BABD61AA3A9B300C359DD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2BABD51AA3A9B300C359DD /* ViewController.m */; };
+		3D2BABD91AA3A9B300C359DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D2BABD71AA3A9B300C359DD /* Main.storyboard */; };
+		3D2BABDB1AA3A9B300C359DD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D2BABDA1AA3A9B300C359DD /* Images.xcassets */; };
+		3D2BABDE1AA3A9B300C359DD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D2BABDC1AA3A9B300C359DD /* LaunchScreen.xib */; };
+		3D2BABEA1AA3A9B300C359DD /* OneWordChatAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2BABE91AA3A9B300C359DD /* OneWordChatAppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D2BABE41AA3A9B300C359DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D2BABC21AA3A9B300C359DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D2BABC91AA3A9B300C359DD;
+			remoteInfo = OneWordChatApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D2BABCA1AA3A9B300C359DD /* OneWordChatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneWordChatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D2BABCE1AA3A9B300C359DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D2BABCF1AA3A9B300C359DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D2BABD11AA3A9B300C359DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3D2BABD21AA3A9B300C359DD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3D2BABD41AA3A9B300C359DD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3D2BABD51AA3A9B300C359DD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3D2BABD81AA3A9B300C359DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D2BABDA1AA3A9B300C359DD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3D2BABDD1AA3A9B300C359DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3D2BABE31AA3A9B300C359DD /* OneWordChatAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OneWordChatAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D2BABE81AA3A9B300C359DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D2BABE91AA3A9B300C359DD /* OneWordChatAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneWordChatAppTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D2BABC71AA3A9B300C359DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D2BABE01AA3A9B300C359DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D2BABC11AA3A9B300C359DD = {
+			isa = PBXGroup;
+			children = (
+				3D2BABCC1AA3A9B300C359DD /* OneWordChatApp */,
+				3D2BABE61AA3A9B300C359DD /* OneWordChatAppTests */,
+				3D2BABCB1AA3A9B300C359DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D2BABCB1AA3A9B300C359DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D2BABCA1AA3A9B300C359DD /* OneWordChatApp.app */,
+				3D2BABE31AA3A9B300C359DD /* OneWordChatAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D2BABCC1AA3A9B300C359DD /* OneWordChatApp */ = {
+			isa = PBXGroup;
+			children = (
+				3D2BABD11AA3A9B300C359DD /* AppDelegate.h */,
+				3D2BABD21AA3A9B300C359DD /* AppDelegate.m */,
+				3D2BABD41AA3A9B300C359DD /* ViewController.h */,
+				3D2BABD51AA3A9B300C359DD /* ViewController.m */,
+				3D2BABD71AA3A9B300C359DD /* Main.storyboard */,
+				3D2BABDA1AA3A9B300C359DD /* Images.xcassets */,
+				3D2BABDC1AA3A9B300C359DD /* LaunchScreen.xib */,
+				3D2BABCD1AA3A9B300C359DD /* Supporting Files */,
+			);
+			path = OneWordChatApp;
+			sourceTree = "<group>";
+		};
+		3D2BABCD1AA3A9B300C359DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D2BABCE1AA3A9B300C359DD /* Info.plist */,
+				3D2BABCF1AA3A9B300C359DD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3D2BABE61AA3A9B300C359DD /* OneWordChatAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D2BABE91AA3A9B300C359DD /* OneWordChatAppTests.m */,
+				3D2BABE71AA3A9B300C359DD /* Supporting Files */,
+			);
+			path = OneWordChatAppTests;
+			sourceTree = "<group>";
+		};
+		3D2BABE71AA3A9B300C359DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D2BABE81AA3A9B300C359DD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D2BABC91AA3A9B300C359DD /* OneWordChatApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D2BABED1AA3A9B300C359DD /* Build configuration list for PBXNativeTarget "OneWordChatApp" */;
+			buildPhases = (
+				3D2BABC61AA3A9B300C359DD /* Sources */,
+				3D2BABC71AA3A9B300C359DD /* Frameworks */,
+				3D2BABC81AA3A9B300C359DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneWordChatApp;
+			productName = OneWordChatApp;
+			productReference = 3D2BABCA1AA3A9B300C359DD /* OneWordChatApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D2BABE21AA3A9B300C359DD /* OneWordChatAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D2BABF01AA3A9B300C359DD /* Build configuration list for PBXNativeTarget "OneWordChatAppTests" */;
+			buildPhases = (
+				3D2BABDF1AA3A9B300C359DD /* Sources */,
+				3D2BABE01AA3A9B300C359DD /* Frameworks */,
+				3D2BABE11AA3A9B300C359DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D2BABE51AA3A9B300C359DD /* PBXTargetDependency */,
+			);
+			name = OneWordChatAppTests;
+			productName = OneWordChatAppTests;
+			productReference = 3D2BABE31AA3A9B300C359DD /* OneWordChatAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D2BABC21AA3A9B300C359DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Brandon Hafenrichter";
+				TargetAttributes = {
+					3D2BABC91AA3A9B300C359DD = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					3D2BABE21AA3A9B300C359DD = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 3D2BABC91AA3A9B300C359DD;
+					};
+				};
+			};
+			buildConfigurationList = 3D2BABC51AA3A9B300C359DD /* Build configuration list for PBXProject "OneWordChatApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D2BABC11AA3A9B300C359DD;
+			productRefGroup = 3D2BABCB1AA3A9B300C359DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D2BABC91AA3A9B300C359DD /* OneWordChatApp */,
+				3D2BABE21AA3A9B300C359DD /* OneWordChatAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D2BABC81AA3A9B300C359DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D2BABD91AA3A9B300C359DD /* Main.storyboard in Resources */,
+				3D2BABDE1AA3A9B300C359DD /* LaunchScreen.xib in Resources */,
+				3D2BABDB1AA3A9B300C359DD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D2BABE11AA3A9B300C359DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D2BABC61AA3A9B300C359DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D2BABD61AA3A9B300C359DD /* ViewController.m in Sources */,
+				3D2BABD31AA3A9B300C359DD /* AppDelegate.m in Sources */,
+				3D2BABD01AA3A9B300C359DD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D2BABDF1AA3A9B300C359DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D2BABEA1AA3A9B300C359DD /* OneWordChatAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D2BABE51AA3A9B300C359DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D2BABC91AA3A9B300C359DD /* OneWordChatApp */;
+			targetProxy = 3D2BABE41AA3A9B300C359DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D2BABD71AA3A9B300C359DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D2BABD81AA3A9B300C359DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D2BABDC1AA3A9B300C359DD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D2BABDD1AA3A9B300C359DD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D2BABEB1AA3A9B300C359DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3D2BABEC1AA3A9B300C359DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D2BABEE1AA3A9B300C359DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OneWordChatApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3D2BABEF1AA3A9B300C359DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OneWordChatApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3D2BABF11AA3A9B300C359DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OneWordChatAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OneWordChatApp.app/OneWordChatApp";
+			};
+			name = Debug;
+		};
+		3D2BABF21AA3A9B300C359DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OneWordChatAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OneWordChatApp.app/OneWordChatApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D2BABC51AA3A9B300C359DD /* Build configuration list for PBXProject "OneWordChatApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D2BABEB1AA3A9B300C359DD /* Debug */,
+				3D2BABEC1AA3A9B300C359DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D2BABED1AA3A9B300C359DD /* Build configuration list for PBXNativeTarget "OneWordChatApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D2BABEE1AA3A9B300C359DD /* Debug */,
+				3D2BABEF1AA3A9B300C359DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3D2BABF01AA3A9B300C359DD /* Build configuration list for PBXNativeTarget "OneWordChatAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D2BABF11AA3A9B300C359DD /* Debug */,
+				3D2BABF21AA3A9B300C359DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D2BABC21AA3A9B300C359DD /* Project object */;
+}
