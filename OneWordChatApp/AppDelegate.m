@@ -6,10 +6,11 @@
 //  Copyright (c) 2015 Brandon Hafenrichter. All rights reserved.
 //
 
+#import <Parse/Parse.h>
 #import "AppDelegate.h"
 
 @interface AppDelegate ()
-
+@property NSString *userID;
 @end
 
 @implementation AppDelegate
@@ -17,6 +18,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    //setting up parse
+    [Parse enableLocalDatastore];
+    [Parse setApplicationId:@"R9M8pZXBsFGLqsizUpFEiVTQonwzsnKRbN0KKt7C" clientKey:@"n8l4lMazZrSg09iqHiyalkeZTN0craJNhESK7VAQ"];
+    [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
+    
     return YES;
 }
 
